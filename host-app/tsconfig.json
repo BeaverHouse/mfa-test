@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "module": "ES2022",
+    "paths": {
+      "*": ["./@mf-types/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
